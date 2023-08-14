@@ -38,12 +38,12 @@ Below is a list of Arduino IoT Cloud features.
 - [**Scheduler**](https://docs.arduino.cc/cloud/iot-cloud/tutorials/cloud-scheduler) - schedule jobs to go on/off for a specific amount of time (seconds, minutes, hours).
 - [**Over-The-Air (OTA) Uploads**](/cloud/iot-cloud/tutorials/ota-getting-started) - upload code to devices not connected to your computer.
 - [**Webhooks**](https://docs.arduino.cc/cloud/iot-cloud/tutorials/webhooks) - integrate your project with another service, such as IFTTT.
-- [**Amazon Alexa Support**](/cloud/iot-cloud/tutorials/alexa-mkr-rgb-shield) - make your project voice controlled with the Amazon Alexa integration. 
-- [**Dashboard Sharing**](https://docs.arduino.cc/cloud/iot-cloud/tutorials/sharing-dashboards) - share your data with other people around the world. 
+- [**Amazon Alexa Support**](/cloud/iot-cloud/tutorials/alexa-mkr-rgb-shield) - make your project voice controlled with the Amazon Alexa integration.
+- [**Dashboard Sharing**](https://docs.arduino.cc/cloud/iot-cloud/tutorials/sharing-dashboards) - share your data with other people around the world.
 
 ## Compatible Hardware
 
-To use the Arduino IoT Cloud, a **cloud compatible board** is required. You can choose between using an official Arduino board, or a board based on the ESP32 / ESP8266 microcontroller. The Arduino IoT Cloud currently supports connection via Wi-Fi, LoRaWAN® (via The Things Network) and mobile networks.
+To use the Arduino IoT Cloud, a **cloud compatible board** is required. You can choose between using an official Arduino board, or a board based on the ESP32 `/` ESP8266 microcontroller. The Arduino IoT Cloud currently supports connection via Wi-Fi, LoRaWAN® (via The Things Network) and mobile networks.
 
 ***All cloud-compatible Arduino boards come with a hardware secure element (such as the [ECC508](/resources/datasheets/ATECC508A-datasheet.pdf) cryptochip), where you can store your security keys.***
 
@@ -77,20 +77,20 @@ Connection via LoRaWAN® is recommended for low-power projects in both remote an
 
 ***To learn more about setting up LoRaWAN® devices, visit the [Configuring LoRaWAN® devices in the Arduino Cloud](/cloud/iot-cloud/tutorials/cloud-lora-getting-started) guide.***
 
-### GSM / NB-IoT Boards
+### GSM `/` NB-IoT Boards
 
-The MKR GSM 1400 and MKR NB 1500 require a **SIM card** to connect to the cloud, as they communicate over the mobile networks. 
+The MKR GSM 1400 and MKR NB 1500 require a **SIM card** to connect to the cloud, as they communicate over the mobile networks.
 
 - [MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400)
 - [MKR NB 1500](https://store.arduino.cc/arduino-mkr-nb-1500-1413)
 
-Connection through mobile networks can be considered in remote areas where there's no Wi-Fi, or in mobile projects (such as cargo tracking).  
+Connection through mobile networks can be considered in remote areas where there's no Wi-Fi, or in mobile projects (such as cargo tracking).
 
 ***For more information, visit the [Arduino SIM page](https://store.arduino.cc/digital/sim).***
 
 ***Note that a secured connection is a memory intense operation, so there's not a lot of memory for the user application (e.g. around 2.6 kB on the MKR GSM 1400). Using a lot of IoT Cloud variables may cause the sketch to run out of memory on boards which don't offload the SSL stack and make it crash.***
 
-### ESP32 / ESP8266
+### ESP32 `/` ESP8266
 
 The Arduino IoT Cloud supports a wide range of third party boards based on the ESP32 and ESP8266 microcontrollers with support for Wi-Fi. To set them up, simply choose the **third party option** in the device setup.
 
@@ -166,7 +166,7 @@ To connect to a Wi-Fi network, simply click the **“Configure”** button in th
 
 ### 7. Editing the Sketch
 
-Now that we have configured variables, devices and network settings, we can get to programming our devices! 
+Now that we have configured variables, devices and network settings, we can get to programming our devices!
 
 An automatically generated sketch file can be found in the **“Sketch”** tab. It has the same structure as a typical `.ino` file, but with some additional code to make the connection to your network and to the cloud.
 

@@ -3,7 +3,7 @@ identifier: ABX00051
 title: Arduino® Nicla Vision
 type: pro
 author: Ali Jahangiri
---- 
+---
 
 ![Nicla Vision](assets/featured.png)
 
@@ -342,7 +342,7 @@ Arduino boards are in compliance with RoHS 2 Directive 2011/65/EU of the Europea
 
 Exemptions : No exemptions are claimed.
 
-Arduino Boards are fully compliant with the related requirements of European Union Regulation (EC) 1907 /2006 concerning the Registration, Evaluation, Authorization and Restriction of Chemicals (REACH). We declare none of the SVHCs (<https://echa.europa.eu/web/guest/candidate-list-table>), the Candidate List of Substances of Very High Concern for authorization currently released by ECHA, is present in all products (and also package) in quantities totaling in a concentration equal or above 0.1%. To the best of our knowledge, we also declare that our products do not contain any of the substances listed on the "Authorization List" (Annex XIV of the REACH regulations) and Substances of Very High Concern (SVHC) in any significant amounts as specified by the Annex XVII of Candidate list published by ECHA (European Chemical Agency) 1907 /2006/EC.
+Arduino Boards are fully compliant with the related requirements of European Union Regulation (EC) 1907 /2006 concerning the Registration, Evaluation, Authorization and Restriction of Chemicals (REACH). We declare none of the SVHCs ([https://echa.europa.eu/web/guest/candidate-list-table](https://echa.europa.eu/web/guest/candidate-list-table)), the Candidate List of Substances of Very High Concern for authorization currently released by ECHA, is present in all products (and also package) in quantities totaling in a concentration equal or above 0.1%. To the best of our knowledge, we also declare that our products do not contain any of the substances listed on the "Authorization List" (Annex XIV of the REACH regulations) and Substances of Very High Concern (SVHC) in any significant amounts as specified by the Annex XVII of Candidate list published by ECHA (European Chemical Agency) 1907 /2006/EC.
 
 ### Conflict Minerals Declaration
 
@@ -383,7 +383,7 @@ Le présent appareil est conforme aux CNR d’Industrie Canada applicables aux a
 **IC SAR Warning:**
 
 English
-This equipment should be installed and operated with a minimum distance of 20 cm between the radiator and your body.  
+This equipment should be installed and operated with a minimum distance of 20 cm between the radiator and your body.
 
 French:
 Lors de l’ installation et de l’ exploitation de ce dispositif, la distance entre le radiateur et le corps est d ’au moins 20 cm.
@@ -406,11 +406,11 @@ Hereby, Arduino S.r.l. declares that this product is in compliance with essentia
 
 | Ref                                | Link                                                                                                |
 |------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Arduino® IDE (Desktop)             | <https://www.arduino.cc/en/Main/Software>                                                             |
-| Arduino® IDE (Cloud)               | <https://create.arduino.cc/editor>                                                                    |
-| Arduino® Cloud IDE Getting Started | <https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-4b3e4a> |
-| Arduino® Pro Website               | <https://www.arduino.cc/pro>                                                                          |
-| Online Store                       | <https://store.arduino.cc/>                                                                           |
+| Arduino® IDE (Desktop)             | [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)                                                             |
+| Arduino® IDE (Cloud)               | [https://create.arduino.cc/editor](https://create.arduino.cc/editor)                                                                    |
+| Arduino® Cloud IDE Getting Started | [https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-4b3e4a](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-4b3e4a) |
+| Arduino® Pro Website               | [https://www.arduino.cc/pro](https://www.arduino.cc/pro)                                                                         |
+| Online Store                       | [https://store.arduino.cc/](https://store.arduino.cc/)                                                                          |
 
 ## Revision History
 

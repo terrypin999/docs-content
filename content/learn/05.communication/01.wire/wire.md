@@ -42,7 +42,7 @@ In some situations, it can be helpful to set up two (or more!) Arduino boards to
 
 ```arduino
 // Wire Controller Reader
-// by Nicholas Zambetti <http://www.zambetti.com>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
 
 // Demonstrates use of the Wire library
 // Reads data from an I2C/TWI peripheral device
@@ -76,7 +76,7 @@ void loop() {
 
 ```arduino
 // Wire Peripheral Sender
-// by Nicholas Zambetti <http://www.zambetti.com>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
 
 // Demonstrates use of the Wire library
 // Sends data as an I2C/TWI peripheral device
@@ -115,7 +115,7 @@ In some situations, it can be helpful to set up two (or more!) Arduino boards to
 
 ```arduino
 // Wire Master Writer
-// by Nicholas Zambetti <http://www.zambetti.com>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
 
 // Demonstrates use of the Wire library
 // Writes data to an I2C/TWI Peripheral device
@@ -139,7 +139,7 @@ void loop()
 {
   Wire.beginTransmission(4); // transmit to device #4
   Wire.write("x is ");        // sends five bytes
-  Wire.write(x);              // sends one byte  
+  Wire.write(x);              // sends one byte
   Wire.endTransmission();    // stop transmitting
 
   x++;
@@ -151,7 +151,7 @@ void loop()
 
 ```arduino
 // Wire Peripheral Receiver
-// by Nicholas Zambetti <http://www.zambetti.com>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
 
 // Demonstrates use of the Wire library
 // Receives data as an I2C/TWI Peripheral device
@@ -218,8 +218,8 @@ Attach the SDA pin of your SRFxx to analog pin 4 of your board, and the SCL pin 
 
 ```arduino
 // I2C SRF10 or SRF08 Devantech Ultrasonic Ranger Finder
-// by Nicholas Zambetti <http://www.zambetti.com>
-// and James Tichenor <http://www.jamestichenor.net>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
+// and James Tichenor [http://www.jamestichenor.net](http://www.jamestichenor.net)
 
 // Demonstrates use of the Wire library reading data from the
 // Devantech Utrasonic Rangers SFR08 and SFR10
@@ -375,8 +375,8 @@ You can only use two of these digital potentiometers simultaneously.
 
 ```arduino
 // I2C Digital Potentiometer
-// by Nicholas Zambetti <http://www.zambetti.com>
-// and Shawn Bonkowski <http://people.interaction-ivrea.it/s.bonkowski/>
+// by Nicholas Zambetti [http://www.zambetti.com](http://www.zambetti.com)
+// and Shawn Bonkowski [http://people.interaction-ivrea.it/s.bonkowski/](http://people.interaction-ivrea.it/s.bonkowski/)
 
 // Demonstrates use of the Wire library
 // Controls AD5171 digital potentiometer via I2C/TWI
@@ -401,8 +401,8 @@ void loop()
 {
   Wire.beginTransmission(44); // transmit to device #44 (0x2c)
                               // device address is specified in datasheet
-  Wire.write(byte(0x00));            // sends instruction byte  
-  Wire.write(val);             // sends potentiometer value byte  
+  Wire.write(byte(0x00));            // sends instruction byte
+  Wire.write(val);             // sends potentiometer value byte
   Wire.endTransmission();     // stop transmitting
 
   val++;        // increment value
